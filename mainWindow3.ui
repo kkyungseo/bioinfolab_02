@@ -307,13 +307,13 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>350</y>
+       <y>340</y>
        <width>181</width>
-       <height>31</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>~ 767 patient samples with data of:</string>
+      <string>~ 767 patient samples with </string>
      </property>
     </widget>
     <widget class="QLabel" name="label_28">
@@ -353,6 +353,19 @@
      </property>
      <property name="text">
       <string> Gene expression</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>349</y>
+       <width>190</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>data of:</string>
      </property>
     </widget>
    </widget>
@@ -527,7 +540,7 @@
        <x>70</x>
        <y>70</y>
        <width>118</width>
-       <height>-10</height>
+       <height>0</height>
       </rect>
      </property>
      <property name="lineWidth">
@@ -720,6 +733,26 @@
       <string>Select analysis</string>
      </property>
     </item>
+    <item>
+     <property name="text">
+      <string>Survival plots</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cross-association</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2D/3D plots</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Box plot</string>
+     </property>
+    </item>
    </widget>
    <widget class="QLabel" name="label_14">
     <property name="geometry">
@@ -768,7 +801,7 @@
      <x>0</x>
      <y>0</y>
      <width>786</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <property name="layoutDirection">
@@ -798,7 +831,7 @@
    </widget>
    <widget class="QMenu" name="menu">
     <property name="title">
-     <string>-------------------------------------------------------------------------------------</string>
+     <string>__________________________________________________________________________</string>
     </property>
    </widget>
    <widget class="QMenu" name="menuHelp">

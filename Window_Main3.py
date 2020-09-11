@@ -19,7 +19,7 @@ class NewMain(QMainWindow, form_class):
         #self.sample_btn.clicked.connect(self.openDrug)
 
         #statusBar which shows License Number(in this case, 'abcd')
-        self.statusBar().showMessage('CBis')
+        self.statusBar().showMessage('CBiS')
 
     def openSurvival(self):
         self.os = survival() #survival 이라고 줄여서 쓰기
